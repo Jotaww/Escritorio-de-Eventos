@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px) {
+    #logo-esteio > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo-esteio > a > img {
+        max-width: 70%;
+        margin: 0px;
+    }
+    .container > div {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px ) and (max-width: 768px) {
+    #logo-esteio > a > img {
+        margin-left: 70px;
+        margin-top: 15px;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    .container > div {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 769px ) and (max-width: 1200px) {
+    #logo-esteio > a > img {
+        margin-left: 70px;
+        margin-top: 15px;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    .container > div {
+        width: 30%;
+    }
+}

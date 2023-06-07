@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#body {
+    background-color: rgb(242, 239, 239);
+}
+
+#logo-esteio > a > img {
+    margin-left: 5%;
+    margin-top: 1%;
+    max-width: 30%;
+    max-height: 450px;
+}
+
+#back-titulo {
+    background-color: #1b486b;
+    height: 180px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
+}
+
+#back-titulo > h2 {
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-bottom: 1px;
+    font-size: 2.3rem;
+}
+
+#back-titulo > h1 {
+    color: white;
+    font-size: 3.3rem;
+    padding-left: 180px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4% 0%;
+}
+
+.container > div {
+    width: 23%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#btn-open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(203, 203, 203);
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.158);
+    border-radius: 3px;
+    color: #213B7F;
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+#btn-open:hover {
+    transform: scale(1.03);
+    border-color: rgb(188, 188, 188);
+    box-shadow: 0 0 5px #a4a4a4;
+}
+
+#btn-open > i {
+    display: block;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.158);
+    
+}
+
+#btn-open > span {
+    display: block;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.158);
+}
+
+footer {
+    background-color: #1b486b;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#info {
+    width: 90%;
+}
+
+footer > div > p {
+    margin: 0;
+    font-weight: 200;
+}
+
+footer > div > p > i {
+    margin-right: 5px;
+}
+
+#img-footer > img {
+    width: 100%;
+    height: 100px;
+}
