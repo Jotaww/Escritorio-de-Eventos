@@ -4,8 +4,13 @@
     font-family: sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 #body {
     background-color: rgb(242, 239, 239);
+    height: 100%;
 }
 
 #logo-esteio > a > img {
@@ -96,7 +101,8 @@ footer {
     padding: 5px;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    bottom: 0;
 }
 
 #info {
